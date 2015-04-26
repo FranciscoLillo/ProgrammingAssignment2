@@ -35,7 +35,7 @@ cacheSolve <- function(x = matrix()) {
                 return(inv)
         }
   
-        ## If is hasn´t been calculated then calculates the inverse 
+        ## If it´s hasn´t been calculated then calculates the inverse 
 
         data = x$get()
         inv = solve(data, ...)
